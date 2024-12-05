@@ -4,92 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e768caf-14f1-439a-b289-0e61ff23c3b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smart-api-monitor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/context/business_impact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/context/context_collector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/context/dependency_analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/context/user_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/adaptation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/anomaly_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/base_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/canary_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/health_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/metrics_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/orchestrator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/performance_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/seasonality_analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/spike_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/ml_models/threshold_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/predictive/forecasting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/predictive/seasonality.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/predictive/threshold_predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/analysis_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/context_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/monitoring_conroller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/prediction_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/middleware/auth_middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/middleware/error_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/middleware/logging_middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/middleware/rate_limiter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/analysis_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/context_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/monitoring_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/prediction_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/schemas/analysis_schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/schemas/context_schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/schemas/monitoring_schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/schemas/prediction_schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/default/adaptation_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/default/api_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/default/default.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/default/ml_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/default/monitoring_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/development.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/production.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/staging.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/managers/config_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/managers/ml_config_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/calculators/health_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/calculators/spike_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/processors/batch_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/processors/stream_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/processors/threshold_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/storage/cache_mgmt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/storage/metric_buffer_mgmt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/storage/state_mgmt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/storage/time_series_data_mgmt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/system/monitoring_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/alerting/alert_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/pagerduty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/slack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/webhook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/exporters/exporter_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/exporters/grafana.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/exporters/prometheus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/splunk/hec_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/visualizations/chart_components.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/visualizations/dashboard_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/visualizations/metrics_visualizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    <list default="true" id="1e768caf-14f1-439a-b289-0e61ff23c3b9" name="Changes" comment="Initial Build">
+      <change afterPath="$PROJECT_DIR$/api/config/api_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deployment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development/setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/context/dependency_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/context/dependency_analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/analysis_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/analysis_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/context_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/context_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/prediction_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/prediction_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/middleware/error_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/middleware/error_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/middleware/logging_middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/middleware/logging_middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/middleware/rate_limiter.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/middleware/rate_limiter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/analysis_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/analysis_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/context_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/context_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/prediction_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/prediction_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/schemas/analysis_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/analysis_schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/schemas/context_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/context_schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/schemas/prediction_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/prediction_schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/processors/batch_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/processors/batch_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/processors/stream_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/processors/stream_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/alerting/providers/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/alerting/providers/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/alerting/providers/slack.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/alerting/providers/slack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/alerting/providers/webhook.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/alerting/providers/webhook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/visualizations/chart_components.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/visualizations/chart_components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/visualizations/metrics_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/visualizations/metrics_visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,11 +127,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733235048639</updated>
-      <workItem from="1733235050937" duration="16347000" />
+      <workItem from="1733235050937" duration="26282000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Build">
+      <option name="closed" value="true" />
+      <created>1733361173367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733361173367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Build" />
   </component>
 </project>
