@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e768caf-14f1-439a-b289-0e61ff23c3b9" name="Changes" comment="Initial Build">
-      <change afterPath="$PROJECT_DIR$/api/config/api_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/api/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/deployment/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development/setup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1e768caf-14f1-439a-b289-0e61ff23c3b9" name="Changes" comment="Final part of build">
+      <changelist_data name="Andrew Croft" email="croftag@gmail.com" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/context/dependency_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/context/dependency_analyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/analysis_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/analysis_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/context_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/context_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/prediction_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/prediction_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/middleware/error_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/middleware/error_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/middleware/logging_middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/middleware/logging_middleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/middleware/rate_limiter.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/middleware/rate_limiter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/analysis_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/analysis_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/context_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/context_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/prediction_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/prediction_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/analysis_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/analysis_schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/context_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/context_schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/prediction_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/prediction_schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/processors/batch_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/processors/batch_processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/processors/stream_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/processors/stream_processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/utils/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils/validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/alerting/providers/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/alerting/providers/email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/alerting/providers/slack.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/alerting/providers/slack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/alerting/providers/webhook.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/alerting/providers/webhook.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/visualizations/chart_components.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/visualizations/chart_components.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/visualizations/metrics_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration/visualizations/metrics_visualizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "croftAI"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/croftai/SMART-api-monitor.git",
+    "accountId": "85472d2a-0f31-4ea2-a4b7-0cc4961d89ea"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -127,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733235048639</updated>
-      <workItem from="1733235050937" duration="26282000" />
+      <workItem from="1733235050937" duration="29006000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Build">
       <option name="closed" value="true" />
@@ -137,7 +119,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733361173367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final part of build">
+      <option name="closed" value="true" />
+      <created>1733416411893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733416411893</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final part of build">
+      <option name="closed" value="true" />
+      <created>1733416588442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733416588442</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final part of build">
+      <option name="closed" value="true" />
+      <created>1733416863271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733416863271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Build" />
+    <MESSAGE value="Final part of build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final part of build" />
   </component>
 </project>
