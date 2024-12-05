@@ -1,0 +1,28 @@
+monitoring:
+  thresholds:
+    short_window_size: 60  # 5-minute window
+    long_window_size: 720  # 1-hour window
+    history_size: 1000
+
+  spike_detection:
+    window_size: 30
+    threshold_multiplier: 2.0
+
+  health_scoring:
+    weights:
+      latency: 0.4
+      error_rate: 0.3
+      traffic: 0.3
+
+  status_thresholds:
+    healthy: 90
+    warning: 70
+    critical: 0
+
+  default_contexts:
+    payment-api:
+      criticality: 0.9
+      business_impact: 0.95
+      baseline_traffic: 1000
+      expected_latency: 200
+      error_threshold: 0.01

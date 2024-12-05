@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e768caf-14f1-439a-b289-0e61ff23c3b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smart-api-monitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/context/business_impact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/context/context_collector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/context/dependency_analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/context/user_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/adaptation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/anomaly_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/base_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/canary_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/health_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/metrics_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/orchestrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/performance_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/seasonality_analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/spike_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/ml_models/threshold_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/predictive/forecasting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/predictive/seasonality.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/predictive/threshold_predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/analysis_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/context_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/monitoring_conroller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/prediction_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/middleware/auth_middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/middleware/error_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/middleware/logging_middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/middleware/rate_limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/analysis_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/context_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/monitoring_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/prediction_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/schemas/analysis_schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/schemas/context_schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/schemas/monitoring_schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/schemas/prediction_schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default/adaptation_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default/api_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default/default.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default/ml_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default/monitoring_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/development.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/production.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/staging.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/managers/config_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/managers/ml_config_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/calculators/health_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/calculators/spike_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/processors/batch_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/processors/stream_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/processors/threshold_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/storage/cache_mgmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/storage/metric_buffer_mgmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/storage/state_mgmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/storage/time_series_data_mgmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/system/monitoring_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utils/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/alerting/alert_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/pagerduty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/slack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/alerting/providers/webhook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/exporters/exporter_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/exporters/grafana.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/exporters/prometheus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/splunk/hec_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/visualizations/chart_components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/visualizations/dashboard_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/visualizations/metrics_visualizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2pi3Q0s6MfoWkLTTjclmYdDaPAE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/andrew.croft/PycharmProjects/smart-api-monitor/core/calculators",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/calculators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/default" />
+      <recent name="$PROJECT_DIR$/config/environments" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="smart-api-monitor" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e768caf-14f1-439a-b289-0e61ff23c3b9" name="Changes" comment="" />
+      <created>1733235048639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733235048639</updated>
+      <workItem from="1733235050937" duration="16347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

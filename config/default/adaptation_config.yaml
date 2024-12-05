@@ -1,0 +1,41 @@
+# config/default/adaptation_config.yaml
+
+model_adaptation:
+  validation:
+    performance_threshold: 0.85
+    shadow_period_hours: 24
+    canary_percentage: 0.1
+    min_samples: 1000
+    max_deviation: 0.2
+    confidence_threshold: 0.95
+
+  seasonality:
+    analysis_window_days: 30
+    min_pattern_confidence: 0.8
+    seasonality_types:
+      - hourly
+      - daily
+      - weekly
+    detection_sensitivity: 0.7
+
+  thresholds:
+    adjustment_interval_minutes: 30
+    max_adjustment_percentage: 20
+    min_data_points: 100
+    history_window_hours: 168  # 1 week
+
+  canary:
+    initial_percentage: 5
+    increment_percentage: 5
+    increment_interval_minutes: 30
+    rollback_threshold: 0.8
+    monitoring_metrics:
+      - error_rate
+      - response_time
+      - health_score
+
+  safety:
+    max_daily_adaptations: 4
+    min_interval_hours: 6
+    rollback_timeout_minutes: 15
+    alert_on_adaptation: true

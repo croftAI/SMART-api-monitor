@@ -1,0 +1,81 @@
+# config/ml_config.yaml
+
+model_registry:
+  performance_tracking:
+    history_length: 1000
+    min_samples: 30
+    save_interval: 3600  # seconds
+
+models:
+  prophet:
+    type: forecasting
+    parameters:
+      changepoint_prior_scale: 0.05
+      seasonality_prior_scale: 10
+      seasonality_mode: multiplicative
+      interval_width: 0.95
+    training:
+      min_data_points: 100
+      update_frequency: 3600  # seconds
+      retraining_threshold: 0.2
+
+  isolation_forest:
+    type: anomaly_detection
+    parameters:
+      n_estimators: 100
+      contamination: 0.1
+      random_state: 42
+      max_samples: auto
+    training:
+      min_data_points: 500
+      update_frequency: 7200  # seconds
+      retraining_threshold: 0.15
+
+  lstm:
+    type: sequence_prediction
+    parameters:
+      sequence_length: 60
+      layers:
+        - type: LSTM
+          units: 50
+          activation: relu
+          return_sequences: true
+        - type: LSTM
+          units: 30
+          activation: relu
+        - type: Dense
+          units: 10
+          activation: relu
+        - type: Dense
+          units: 1
+    training:
+      batch_size: 32
+      epochs: 100
+      validation_split: 0.2
+      early_stopping_patience: 10
+      min_data_points: 1000
+      update_frequency: 86400  # seconds
+      retraining_threshold: 0.25
+
+ensemble:
+  weights:
+    prophet: 0.4
+    isolation_forest: 0.3
+    lstm: 0.3
+  thresholds:
+    confidence_minimum: 0.7
+    anomaly_score: 0.8
+    prediction_deviation: 0.2
+
+performance_monitoring:
+  metrics:
+    - type: mape
+      threshold: 20.0
+    - type: rmse
+      threshold: 0.15
+    - type: mae
+      threshold: 0.1
+  retraining:
+    error_threshold: 0.2
+    window_size: 10
+    min_samples: 100
